@@ -38,7 +38,7 @@ const MetricsCard = ({
   return (
     <div className="border border-gray-200 rounded-lg bg-white">
       <div className="p-4 flex justify-between items-start border-b border-gray-200">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-row justify-between w-full ">
           <h3 className="text-sm font-medium text-gray-600">{title}</h3>
           <Info size={16} className="text-gray-400" />
         </div>
