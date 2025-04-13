@@ -223,7 +223,7 @@ const FixedWidthScrollableTable = ({ tableType = "sku" }) => {
                   {availabilityColumns.map((column, index) => (
                     <td
                       key={column.id}
-                      className={`px-4 py-4 text-gray-800 font-medium ${
+                      className={`px-4 py-4 text-[15px] font-bold leading-4 tracking-[-0.02px] ${
                         index === availabilityColumns.length - 1
                           ? "border-r border-gray-200"
                           : ""
